@@ -20,6 +20,6 @@ class School
   end
   
   def sort()
-    puts @roster.sort
+    return @roster.sort
   end
 end
