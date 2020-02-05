@@ -20,6 +20,6 @@ class School
   end
   
   def sort()
-    return @roster.values.sort
+    return @roster.values.sort_by
   end
 end
