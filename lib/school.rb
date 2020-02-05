@@ -21,6 +21,6 @@ class School
   
   def sort()
     return @roster.values.sort_by do |key, value|
-      
+      value
   end
 end
