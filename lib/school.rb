@@ -1,5 +1,5 @@
 class School
-  attr_reader(:name)
+  attr_reader(:name, :roster)
   
   def initialize(school_name)
     @name = school_name
